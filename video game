@@ -1,3 +1,19 @@
 
-variable =()> "driverStart";
+variable =()> "driverStart"; react
 road muddy arrow function driver start if else stop
+gpt
+
+// Define a driver control function using an arrow function
+const driverControl = (roadCondition) => {
+    if (roadCondition === 'muddy') {
+        console.log('Driver Start: Road is muddy, proceed carefully.');
+        // Additional logic for starting driver
+    } else {
+        console.log('Driver Stop: Road is clear or unknown condition, stop.');
+        // Additional logic for stopping driver
+    }
+};
+
+// Test the function with different road conditions
+driverControl('muddy'); // Expected output: Driver Start
+driverControl('clear'); // Expected output: Driver Stop
